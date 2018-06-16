@@ -1,0 +1,107 @@
+body {
+background-image: url("https://www.bloggang.com/data/pae-studio/picture/1185262557.jpg");
+opacity: 0.9;
+}
+
+.udacity-logo {
+  max-height: 4em;
+  margin: 1em;
+  margin-left: 0;
+  margin-bottom: 0;
+  border-radius: 75%;
+  width:100px;
+  position:relative;
+  bottom: -40px;
+  right:-20px;
+}
+#pop{
+  width:470px;
+  height:200px;
+  bottom:50%;
+  right:30%;
+  position:fixed;
+  font-style: italic;
+  line-height: 1.6;
+   border: 2px solid gray;
+   background:#FFF8E1 ;
+   opacity:0.9;
+}
+
+.featured-logo {
+     max-height: 30em;
+     margin: 0;
+     padding: 0;
+     text-align: center;
+     width: 95%;
+     opacity: 0.9;
+
+ 
+}
+.image-logo{
+  width: 360px;
+  height: 220px;
+}
+
+.banner {
+    margin-bottom: 3em;
+}
+
+.divider {
+    height: 3px;
+    color: #7d97ad; /* old IE */
+    background-color: #7d97ad; /* Modern Browsers */
+}
+
+h1 {
+    color: #2d3c49;
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    color: #7d97ad;
+    font-family: "Raleway", sans-serif;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+}
+
+
+p {
+    color: #2d3c49;
+    text-align: center;
+}
+
+a {
+    color: #2d3c49;
+}
+
+.app-title {
+    color: #2d3c49;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 2.5em;
+    border-radius: 50%;
+    border-style: solid;
+    border: solid 4px ;
+    height: 2em;
+    width: 2em;
+    text-align: center;
+    padding-top: 0.18em;
+    margin-top: 0.6em;
+    color: #02b3e4;
+}
+
+.logo-link {
+    color: #02b3e4;   
+
+}
+
+.logo-link:hover {
+    text-decoration: none;
+    color: #02b3e4;   
+}
