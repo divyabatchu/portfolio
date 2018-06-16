@@ -3,7 +3,7 @@
 PROJECT
 ========
 
-![Screenshot of portfolio website](/images/Screenshot-4.png?raw=true "Final result")
+![Screenshot of portfolio website](/Screenshot-4.png?raw=true "Final result")
 
 
 ## 1. Description
@@ -30,5 +30,5 @@ The "Static" folder contains three sub-folders: images, that holds all the pictu
 Open index.html in your browser.   
 
 ## 4. About
-Made by Jeremie Faye using code provided by Udacity
+Made by divya batcu using code provided by Udacity
 

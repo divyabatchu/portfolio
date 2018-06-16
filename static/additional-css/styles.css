@@ -7,16 +7,12 @@ opacity: 0.9;
 }
 
 .udacity-logo {
-  max-height: 4em;
-  margin: 1em;
-  margin-left: 0;
-  margin-bottom: 0;
-  border-radius: 75%;
-  width:100px;
-  position:relative;
-  bottom: -40px;
-  right:-20px;
-}
+ height: 90px;
+  width: auto;
+  text-align: right;
+  }
+
+
 #pop{
   width:470px;
   height:200px;
@@ -28,6 +24,7 @@ opacity: 0.9;
    border: 2px solid gray;
    background:#FFF8E1 ;
    opacity:0.9;
+   font-weight: bold;
 }
 
 .featured-logo {
@@ -110,3 +107,11 @@ a {
     text-decoration: none;
     color: white;   
 }
+
+@media screen and (min-width: 470px)  {
+      #pop {
+        width: 35%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
