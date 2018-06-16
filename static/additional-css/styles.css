@@ -1,5 +1,8 @@
 body {
-background-image: url("https://www.bloggang.com/data/pae-studio/picture/1185262557.jpg");
+background-image: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/vintage-grey-background-10.jpg");
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 opacity: 0.9;
 }
 
@@ -53,16 +56,18 @@ opacity: 0.9;
 }
 
 h1 {
-    color: #2d3c49;
+    color: white;
     font-family: "Roboto", sans-serif;
 }
 
 h2 {
-    color: #7d97ad;
+
+    color: white;
     font-family: "Raleway", sans-serif;
 }
 
 h3 {
+    color: white;
     font-family: "Roboto", sans-serif;
 }
 
@@ -73,10 +78,10 @@ p {
 }
 
 a {
-    color: #2d3c49;
+    color: white;
 }
 
-.app-title {
+.image-logo {
     color: #2d3c49;
     text-align: center;
     font-family: "Raleway", sans-serif;
@@ -93,15 +98,15 @@ a {
     text-align: center;
     padding-top: 0.18em;
     margin-top: 0.6em;
-    color: #02b3e4;
+    color: white;
 }
 
-.logo-link {
-    color: #02b3e4;   
+.image-logo {
+    color: white;   
 
 }
 
-.logo-link:hover {
+.image-logo:hover {
     text-decoration: none;
-    color: #02b3e4;   
+    color: white;   
 }
