@@ -3,7 +3,6 @@
 PROJECT
 ========
 
-![Screenshot of portfolio website](/Screenshot-4.png?raw=true "Final result")
 
 
 ## 1. Description
