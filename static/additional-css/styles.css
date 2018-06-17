@@ -12,19 +12,20 @@ opacity: 0.9;
   text-align: right;
   }
 
-
 #pop{
-  width:470px;
-  height:200px;
-  bottom:50%;
-  right:30%;
-  position:fixed;
+  /*width:470px;*/
+  /*height:200px;*/
+  position: absolute;
   font-style: italic;
   line-height: 1.6;
    border: 2px solid gray;
    background:#FFF8E1 ;
    opacity:0.9;
    font-weight: bold;
+   left: 25%;
+   top: 25%;
+   right: 25%;
+   text-align: center;
 }
 
 .featured-logo {
@@ -35,7 +36,7 @@ opacity: 0.9;
      width: 95%;
      opacity: 0.9;
 
- 
+
 }
 .image-logo{
   width: 360px;
@@ -44,6 +45,7 @@ opacity: 0.9;
 
 .banner {
     margin-bottom: 3em;
+    position: relative;
 }
 
 .divider {
@@ -71,7 +73,7 @@ h3 {
 
 p {
     color: #2d3c49;
-    text-align: center;
+    /* text-align: center; */
 }
 
 a {
@@ -99,19 +101,32 @@ a {
 }
 
 .image-logo {
-    color: white;   
+    color: white;
 
 }
 
 .image-logo:hover {
     text-decoration: none;
-    color: white;   
+    color: white;
 }
 
-@media screen and (min-width: 470px)  {
+@media screen and (max-width: 645px)  {
       #pop {
-        width: 35%;
-        margin-left: auto;
-        margin-right: auto;
-      }
+        line-height: 1.2em;
+        font-size: 1em;
+        letter-spacing: 1px;
     }
+}
+
+@media screen and (max-width:490px) {
+  #pop {
+    font-size: 0.8em;
+
+  }
+}
+@media screen and (max-width:400px) {
+  #pop {
+    font-size: 0.7em;
+
+  }
+}
